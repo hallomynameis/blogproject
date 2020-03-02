@@ -1,5 +1,5 @@
 body {
-    background-color: #595959; 
+    background-color: #5ed; 
     font-family: sans-serif;
     color: black;
     margin: 50px; 
@@ -7,10 +7,12 @@ body {
 
 .header {
     text-align: center;
+    font-size: 30px; 
 }
 
 .navigation {
-    padding: 15px;
+    padding: 1px;
+    font-size: 20px; 
     text-align: center; 
 }
 
@@ -20,14 +22,19 @@ a {
 }
 .main-content {
     float: left;
-    border: 2px solid black; 
+    clear: both;
+    border: 2px solid #fff; 
+    left: 100px; 
     width: 600px;
+    
 }
 
 .left-content {
-    float: left;
-    border: 2px solid black;
+    float: right;
+    left: 150px; 
+    border: 2px solid red;
     width: 500px;
+    
 }
  
 .image {
