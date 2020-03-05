@@ -1,54 +1,58 @@
 body {
-    background-color: #5ed; 
-    font-family: sans-serif;
-    color: black;
-    margin: 50px; 
+    background-color: cornsilk;
+    font-family: 'Spartan', sans-serif;
+    color: #000;
+    margin: 0;
+
 }
 
 .header {
     text-align: center;
-    font-size: 30px; 
+    color: #000;
 }
 
-.navigation {
-    padding: 1px;
-    font-size: 20px; 
-    text-align: center; 
+.header-nav {
+    display: flex; 
+    padding: -15px;
+    background-color: #000;
+    letter-spacing: .16em;
+}
+
+li {
+    display: inline; 
+    text-align: right;
 }
 
 a {
-    color: black;
     text-decoration: none; 
+    color: #fff; 
+    background-color: transparent;
 }
+
+a:hover {
+    background-color: cornsilk;
+    transition: color 0.5s ease-in-out;
+    transition-property: color, background-color;
+    color: transparent;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .main-content {
-    float: left;
-    clear: both;
-    border: 2px solid #fff; 
-    left: 100px; 
-    width: 600px;
-    
+    flex: 30%;
+    background-color: ;
+    padding-left: 100px;
+    height: 700px;
 }
 
-.left-content {
-    float: right;
-    left: 150px; 
-    border: 2px solid red;
-    width: 500px;
-    
-}
- 
-.image {
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    margin-left: auto;
-    margin-right: auto;
+.fakeimg {
+    height: 700px;
+    margin: 30px; 
 }
 
-.photo {
-    width: 550px;
-    height: 550px; 
-    margin-left: auto;
-    margin-right: auto;
+.footer {
+    text-align: center; 
 }
-
