@@ -1,58 +1,71 @@
 body {
-    background-color: cornsilk;
+    background-color: #66cdaa;
     font-family: 'Spartan', sans-serif;
-    color: #000;
-    margin: 0;
-
+    margin: auto;
 }
 
-.header {
-    text-align: center;
-    color: #000;
+.title {
+    font-style: italic;
+    text-align: left;
+    font-weight: bold; 
+    font-size: 30px;
+    margin: 25px 0 0 40px;
+    
 }
 
-.header-nav {
-    display: flex; 
-    padding: -15px;
+.top-image {
+    height: 30px;
+    margin-left: 30px;
+    vertical-align: sub; 
+}
+
+.nav-links {
     background-color: #000;
-    letter-spacing: .16em;
+    padding: 5px;
+    text-align: center;
 }
 
 li {
-    display: inline; 
-    text-align: right;
+    display: inline-block;
+    margin-right: 80px;
 }
 
 a {
-    text-decoration: none; 
-    color: #fff; 
     background-color: transparent;
+    text-decoration: none; 
+    color: #fff;
 }
 
 a:hover {
-    background-color: cornsilk;
-    transition: color 0.5s ease-in-out;
-    transition-property: color, background-color;
-    color: transparent;
+    color: orange;
+    font-weight: bold;
+    background-color: transparent; 
+    text-transform: lowercase;
+    cursor: default;
+
 }
 
 .wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .main-content {
-    flex: 30%;
-    background-color: ;
-    padding-left: 100px;
-    height: 700px;
+    margin-top: -30px;
+    flex: 50%;
+    width: 150%;
 }
 
-.fakeimg {
-    height: 700px;
-    margin: 30px; 
+.fake-image {
+    border: solid #000 2px;
+    opacity: 0.7; 
+    height: 650px; 
+    margin: 25px;   
 }
-
+/* this was commented out because i couldn't figure out how to get the footer to stick to the bottom.
 .footer {
-    text-align: center; 
+    text-align: center;
+    font-weight: bolder;
 }
+*/
+
