@@ -1,3 +1,3 @@
 # blogproject
-Creating Blog Project
-Learning front end development and created a basic blog layout. 
+This is my first project in which I'm creating a blog.
+Learning about CSS, HTML and Javascript. 
