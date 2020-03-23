@@ -1,5 +1,5 @@
 body {
-    background-color: #66cdaa;
+    background-color: #66ccaa;
     font-family: 'Spartan', sans-serif;
     margin: auto;
 }
@@ -51,17 +51,41 @@ a:hover {
 }
 
 .main-content {
-    margin-top: -30px;
-    flex: 50%;
-    width: 150%;
+    margin-top: 10px;
+    flex: 30%;
+    width: 100%;
+    border: 10px solid red; 
 }
 
 .fake-image {
+    display: block;
     border: solid #000 2px;
     opacity: 0.7; 
-    height: 650px; 
+    height: 550px; 
     margin: 25px;   
 }
+
+.about-image {
+    display: block; 
+    border: solid #000 2px;
+    width: 550px; 
+    height: 650px;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%;
+    text-align: center; 
+}
+
 /* this was commented out because i couldn't figure out how to get the footer to stick to the bottom.
 .footer {
     text-align: center;
